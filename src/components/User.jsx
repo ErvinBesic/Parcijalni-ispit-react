@@ -24,12 +24,6 @@ export default function User(props) {
         <p className="user-bio">BIO: {props.user.bio} </p>
         <p className="user-location"> LOKACIJA:{props.user.location} </p>
       </div>
-
-      <div>
-        <a className="visit" href={props.user.html_url}>
-          Pogledaj profil korisnika
-        </a>
-      </div>
     </div>
   );
 }
