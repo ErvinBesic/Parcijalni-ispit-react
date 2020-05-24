@@ -6,7 +6,7 @@ export default function UserForm(props) {
       <input
         type="text"
         placeholder="Upiši naziv korisnika"
-        value={props.user.name}
+        value={props.user.value}
         onChange={props.handleChange}
       />
       <button type="submit">Traži</button>

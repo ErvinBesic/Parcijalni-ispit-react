@@ -18,7 +18,7 @@ export default class ContainerUserForm extends React.Component {
   }
 
   handleChange(event) {
-    this.setState({ user: event.target.value });
+    this.setState({ user: event.target.value, repos: [] });
   }
 
   handleSubmit = (event) => {
